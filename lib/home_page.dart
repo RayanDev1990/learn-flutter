@@ -11,7 +11,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var data = [];
+  var data = [
+    {"fname": "rayan", "lname": "alghamdi"}
+  ];
   TextEditingController in1 = TextEditingController();
   TextEditingController in2 = TextEditingController();
 
