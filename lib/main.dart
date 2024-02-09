@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project/home_page.dart';
-import 'package:project/learn_network2.dart';
+import 'package:project/tic_tac_toe.dart';
 
-import 'filter_list.dart';
-import 'learn_network.dart';
+import 'weather.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: FilterList(),
+      home: TicTacToe(),
     );
   }
 }
